@@ -1,5 +1,7 @@
 # 基础
 
+##### *学习了一周的web pack,后面很深越学越脱离实际，在日常前端开发中感觉主要是学会loader和plugins在项目中的作用，能够合理的使用官方维护的常用的loader个plugins足够满足我自己的开发。之后我可能会多去结合项目来做一些webpack的优化。重点不是难在知识点而是在项目的应用上*
+
 webpack一般存在于node_modules/.bin/webpack如果我们想要去打包，需要运行node_modules/.bin/webpack.js这个文件或者我们用package.json文件中去定义脚本："build":"webpack".因为package.json默认可以访问到node_modules下面的文件。
 
 Objectives:能够学会独立打包一个多入口的页面应用，了解最常用的webpack中的loader和plugin
@@ -541,3 +543,4 @@ module.exports = [serverConfig, clientConfig];
 超级棒的解释：
 
 一旦你的应用在浏览器中以 `index.html` 文件的形式被打开，一些 bundle 和应用需要的各种资源都需要用某种方式被加载与链接起来。在经过打包、压缩、为延迟加载而拆分为细小的 chunk 这些 webpack `优化` 之后，你精心安排的 `/src` 目录的文件结构都已经不再存在。所以 webpack 如何管理所有所需模块之间的交互呢？这就是 manifest 数据用途的由来……
+
