@@ -1,0 +1,10 @@
+{
+"presets": [
+    "@babel/preset-env",//es6语法解析
+    "@babel/preset-react"//react语法解析
+],
+"plugins": [
+    
+]
+
+} 
