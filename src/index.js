@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOMClient from "react-dom/client";
 import "./indexstyle.css"
 import { useState } from "react";
 
@@ -26,4 +26,5 @@ const Indexdemo = () => {   // 函数组件
             </p>
         </div>
     );}
-ReactDOM.render(<Indexdemo />, document.getElementById("root1"));
+    const root=ReactDOMClient.createRoot(document.getElementById("root"));
+    root.render(<Indexdemo />);
