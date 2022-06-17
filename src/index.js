@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOMClient from "react-dom/client";
 import "./indexstyle.css"
 import { useState } from "react";
+// import logo from "./images/logo.png";
 
 // class Other extends React.Component {
 //   render() {
@@ -20,6 +21,7 @@ const Indexdemo = () => {   // 函数组件
     return (
         <div className="indextest">
             <h1>index</h1>
+            {/* <img src={logo}/> */}
             <p>
                 This is the indexdemo page.
                 test hotUpdate : {count}

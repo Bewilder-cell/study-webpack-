@@ -1,6 +1,8 @@
 import React from "react";
 import "./otherstyle.css";
+import "tailwindcss/tailwind.css"
 import ReactDOMClient from "react-dom/client";
+import xi from "./下载.jpeg";
 // import "../dist/output.css"
 
 // class Other extends React.Component {
@@ -18,11 +20,11 @@ import ReactDOMClient from "react-dom/client";
 const Other = () => {    
     return (
         <div className="test">
-          
-          {/* <h1 class="text-3xl font-bold underline">
+          <img src={xi} />
+          <h1 class="text-3xl font-bold underline">
     Hello world!
-  </h1> */}
-
+  </h1>
+ 
             <h1>Other</h1>
             <p>
                 This is the other page.
