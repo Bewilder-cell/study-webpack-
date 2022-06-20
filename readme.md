@@ -544,3 +544,11 @@ module.exports = [serverConfig, clientConfig];
 
 一旦你的应用在浏览器中以 `index.html` 文件的形式被打开，一些 bundle 和应用需要的各种资源都需要用某种方式被加载与链接起来。在经过打包、压缩、为延迟加载而拆分为细小的 chunk 这些 webpack `优化` 之后，你精心安排的 `/src` 目录的文件结构都已经不再存在。所以 webpack 如何管理所有所需模块之间的交互呢？这就是 manifest 数据用途的由来……
 
+### 有的图片不能用了
+
+
+
+[直接在飞书上写吧](https://a634h3dlvi.feishu.cn/docx/doxcnFgIIAWfwskExaZYcWQavBb)
+
+### 
+
