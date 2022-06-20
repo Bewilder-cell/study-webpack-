@@ -27,7 +27,7 @@ const Other = () => {
  
             <h1>Other</h1>
             <p>
-                This is the other page.
+                This is the other page. 文件监听已启动1ß，热更新
             </p>
         </div>
     );}
